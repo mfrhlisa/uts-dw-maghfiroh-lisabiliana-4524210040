@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Planner Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Planner Generator</h1>
+  </header>
+
+  <main>
+    <form id="planner-form">
+      <h2>Buat Rencana Hari Ini</h2>
+
+      <label for="kegiatan">Nama Kegiatan</label>
+      <input type="text" id="kegiatan" placeholder="Contoh: Mencuci Baju">
+
+      <label for="tanggal">Tanggal</label>
+      <input type="text" id="tanggal" placeholder="Contoh: 23-09-2025">
+
+      <label for="mulai">Waktu Mulai</label>
+      <input type="text" id="mulai" placeholder="Contoh: 08.00">
+
+      <label for="selesai">Waktu Selesai</label>
+      <input type="text" id="selesai" placeholder="Contoh: 10.00">
+
+      <label for="catatan">Catatan Tambahan</label>
+      <textarea id="catatan" rows="3" placeholder="Tambahkan catatan di sini..."></textarea>
+    </form>
+
+    <section id="preview">
+        <h2>Preview Harianmu</h2>
+        <p><strong>Nama Kegiatan:</strong> <span id="preview-kegiatan">-</span></p>
+        <p><strong>Tanggal:</strong> <span id="preview-tanggal">-</span></p>
+        <p><strong>Waktu Mulai:</strong> <span id="preview-mulai">-</span></p>
+        <p><strong>Waktu Selesai:</strong> <span id="preview-selesai">-</span></p>
+        <p><strong>Catatan:</strong> <span id="preview-catatan">-</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Maghfiroh Lisabiliana — Daily Planner Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
